@@ -42,4 +42,13 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
+  - id: embykeeper
+    name: Embykeeper
+    description: 'Hello World'
+    url: 'https://embykeeper-k7n5.onrender.com'
+    method: GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
 
