@@ -48,7 +48,7 @@ monitors:
     url: 'https://audiences.me'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
   - id: hhanclub
@@ -57,7 +57,7 @@ monitors:
     url: 'https://hhanclub.top'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
   - id: totheglory
@@ -66,7 +66,7 @@ monitors:
     url: 'https://totheglory.im'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
   - id: pter
@@ -75,7 +75,7 @@ monitors:
     url: 'https://pterclub.com'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
   - id: springsunday
@@ -84,7 +84,7 @@ monitors:
     url: 'https://springsunday.net'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
   - id: hdchina
@@ -93,7 +93,7 @@ monitors:
     url: 'https://hdchina.org'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
   - id: chdbits
@@ -102,7 +102,7 @@ monitors:
     url: 'https://ptchdbits.co'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
   - id: u2
@@ -111,7 +111,7 @@ monitors:
     url: 'https://u2.dmhy.org'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
   - id: passthepopcorn
@@ -120,6 +120,6 @@ monitors:
     url: 'https://passthepopcorn.me'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
