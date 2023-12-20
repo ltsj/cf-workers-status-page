@@ -51,42 +51,6 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: hhanclub
-    name: HHCLUB
-    description: 'Hello World'
-    url: 'https://hhanclub.top'
-    method: GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: totheglory
-    name: TTG
-    description: 'Hello World'
-    url: 'https://totheglory.im'
-    method: GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
-  - id: pter
-    name: PTer
-    description: 'Hello World'
-    url: 'https://pterclub.com'
-    method: GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: springsunday
-    name: SSD
-    description: 'Hello World'
-    url: 'https://springsunday.net'
-    method: GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
   - id: hdchina
     name: HDChina
     description: 'Hello World'
@@ -95,31 +59,4 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-
-  - id: chdbits
-    name: CHDBits
-    description: 'Hello World'
-    url: 'https://ptchdbits.co'
-    method: GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
     
-  - id: u2
-    name: U2
-    description: 'Hello World'
-    url: 'https://u2.dmhy.org'
-    method: GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: passthepopcorn
-    name: PTP
-    description: 'Hello World'
-    url: 'https://passthepopcorn.me'
-    method: GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
