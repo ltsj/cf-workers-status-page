@@ -42,21 +42,12 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: audiences-me
-    name: Audiences
+  - id: subconverter
+    name: Subconverter
     description: 'Hello World'
-    url: 'https://audiences.me'
+    url: 'https://e4571429-f69b-4a7f-bec7-4fb6cbb1bdf6-00-z53g7lzfevrt.global.replit.dev/'
     method: GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
+    followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: hdchina
-    name: HDChina
-    description: 'Hello World'
-    url: 'https://hdchina.org'
-    method: GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
