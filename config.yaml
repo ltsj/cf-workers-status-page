@@ -45,7 +45,7 @@ monitors:
   - id: subconverter
     name: Subconverter
     description: 'Hello World'
-    url: 'https://subconverter-rnac.onrender.com'
+    url: 'https://subconverter-rnac.onrender.com/version'
     method: GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
